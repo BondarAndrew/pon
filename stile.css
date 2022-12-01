@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.wrapper {
+  width: 80%;
+  margin: auto;
+  height: 100%;
+}
+
+.header-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header-logo {
+  font-family: "Homemade Apple";
+  font-size: 18px;
+  line-height: 39px;
+  color: #231f20;
+}
+
+.header-menu-links {
+  text-align: center;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 21px;
+  align-items: center;
+  color: #000000;
+  margin-left: 45px;
+}
+
+.header-menu-link:first-child {
+  margin: 0;
+}
+
+.header-menu-link:hover {
+  color: rgb(255, 190, 70);
+  transition: 0.2s;
+}
+
+.header-menu-button {
+  font-family: "Montserrat";
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+  color: #f7941e;
+  text-decoration: none;
+  border: 2px solid #f7941e;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.header-menu-button:hover {
+  color: black;
+  border: 2px solid black;
+  border-radius: 8px;
+  padding: 10px;
+  transition: 0.2s;
+}
+
+.header-content {
+  width: 100%;
+  height: 100%;
+}
+
+.card1 {
+  width: 100%;
+  height: 45%;
+  display: flex;
+}
+
+.card-title {
+  font-family: "Roboto";
+  font-size: 56px;
+  line-height: 69px;
+  color: #000000;
+  padding-top: 10%;
+}
+
+.card-info {
+  width: 60%;
+  text-align: center;
+}
+
+.card-text {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 140.62%;
+  color: #000000;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.card-button {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 15px;
+  background-color: #f7941e;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.card-photo {
+  height: 100%;
+  object-fit: cover;
+  background-position: center;
+  border-radius: 5555px;
+  transition-duration: 0.5s;
+}
+
+.card-photo2 {
+  object-fit: cover;
+  background-position: center;
+
+  height: 100%;
+  margin-right: 50px;
+}
+
+.card-button:hover {
+  color: black;
+  transition: 0.2s;
+}
+
+.header-photo:hover .card-photo {
+  transform: scale(0.9);
+  transition: 0.5s;
+}
+
+.gifts {
+  height: 75vh;
+}
+
+.gifts-info {
+  text-align: center;
+}
+
+.gifts-title {
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 38px;
+  color: #000000;
+  padding: 70px 0 30px 0;
+}
+
+.gifts-text {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 135.94%;
+  color: #000000;
+}
+
+.gifts-cards {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.gifts-card {
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(233, 233, 233);
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.gifts-card-title {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  padding-left: 15px;
+}
+
+.see-more {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #000000;
+  padding: 15px;
+}
+
+.orange-element {
+  height: 25vh;
+  background-color: #f7941e;
+  width: 100%;
+}
+
+.orange-element-container {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.orange-element-title {
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+}
+
+.orange-element-text {
+  font-family: "Roboto";
+  font-size: 32px;
+  line-height: 140.62%;
+  color: #000000;
+}
+
+.orange-element-info {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.orange-element-button {
+  color: white;
+  background-color: rgb(36, 36, 36);
+  padding: 14px 25px 14px 25px;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 22px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 10px;
+  margin-right: 17px;
+  height: max-content;
+}
+
+.orange-element-button2 {
+  font-family: "Roboto";
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  padding: 14px 25px 14px 25px;
+  border: 1px solid rgb(36, 36, 36);
+  border-radius: 10px;
+  text-decoration: none;
+  height: max-content;
+}
+
+.orange-element-buttons {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.orange-element-button:hover {
+  color: #231f20;
+  background-color: #f7941e;
+  border: 1px solid #231f20;
+  transition: 0.4s;
+}
+
+.orange-element-button2:hover {
+  color: #f0f0f0;
+  background-color: #231f20;
+  transition: 0.4s;
+}
